@@ -1,12 +1,12 @@
 h1 {
-    color:lightgoldenrodyellow;
+    color:lightgoldenrodyellow; 
 }
 
 body {
     background-color: darkslategrey;
 }
 
-img
+#mainCalendar
 {
     display: none;
 }
@@ -20,7 +20,11 @@ position: absolute; top:0; left: 0; width: 100%; height: 100%;
 
 @media (min-width: 600px)
 {
-    img
+    h1
+    {
+        display: none;   
+    }
+    #mainCalendar
     {
         display: block; 
         margin: 1em auto; 
